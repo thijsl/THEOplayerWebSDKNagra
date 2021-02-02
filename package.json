@@ -1,0 +1,29 @@
+{
+  "name": "theoplayerdrmnagra",
+  "version": "1.0.0",
+  "description": "THEOplayer Web SDK connector for Nagra DRM.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/lodash": "^4.14.161",
+    "@types/node": "^14.6.3",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "http-server": "^0.12.3",
+    "rollup": "^2.26.9",
+    "ts-node": "^9.0.0",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "keywords": ["theoplayer"]
+}
